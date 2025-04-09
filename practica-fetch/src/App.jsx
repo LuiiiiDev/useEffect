@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router'
 import Nav from './components/Nav'
 import DragonBall from './pages/DragonBall'
 import './App.css'
+import Rick from './pages/RickAndMorty'
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
         <Nav/>
         <Routes>
           <Route path="/dragon" element={<DragonBall/>} />
-
+          <Route path="/rick" element={<Rick />} />
         </Routes>
       </Router>
     </>
